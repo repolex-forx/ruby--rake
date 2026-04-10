@@ -1,0 +1,7 @@
+[2026-04-10T19:04:48Z] === AST ITERATION 1 START | repo=ruby/rake sha=f0001c3e ===
+[2026-04-10T19:04:48Z] [iter=1] PHASE START: ast repo=ruby/rake sha=f0001c3e
+[2026-04-10T19:04:48Z] [iter=1] Building AST aggregate chunks
+[2026-04-10T19:05:14Z] [iter=1] AST chunks built count=1 triples=346094
+[2026-04-10T19:05:14Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/f0001c3eeada8220f2976170876c75d21ed0626f/.complete
+[2026-04-10T19:05:14Z] [iter=1] PHASE END: ast elapsed_s=26 elapsed_min=0.4
+[2026-04-10T19:05:14Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
