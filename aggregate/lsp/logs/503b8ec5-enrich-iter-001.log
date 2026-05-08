@@ -1,0 +1,25 @@
+[2026-05-08T04:47:50Z] === ENRICH ITERATION 1 START | repo=ruby/rake sha=503b8ec5 ===
+[2026-05-08T04:47:50Z] [iter=1] PHASE START: enrich repo=ruby/rake sha=503b8ec5 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/503b8ec5-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/503b8ec593c51289c09cc2a69a34af99d6198c6a.nq.gz
+[2026-05-08T04:47:51Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-05-08T04:47:54Z] [iter=1] AST store loaded triples=348416 load_secs=2 mem_mb=554 MB
+[2026-05-08T04:47:54Z] [iter=1] Step 2: Finding LSP targets mem_mb=554 MB
+[2026-05-08T04:47:55Z] [iter=1] LSP targets found call_sites=6036 imports=0 extends=0 implements=0 secs=1
+[2026-05-08T04:47:56Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=554 MB
+[2026-05-08T04:47:58Z] [iter=1] Position index built positions=23748 nodes_with_types=29773 secs=2 mem_mb=554 MB
+[2026-05-08T04:47:58Z] [iter=1] Step 3: Starting LSP resolution mem_mb=554 MB already_completed_types=[] already_completed_files=0
+[2026-05-08T04:47:58Z] [iter=1] Resolving target type target_type=call_site count=6036
+[2026-05-08T04:48:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=3 resolved=75 errors=131 current=test/test_rake_makefile_loader.rb
+[2026-05-08T04:49:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=9 resolved=102 errors=391 current=lib/rake/task.rb
+[2026-05-08T04:49:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=13 resolved=158 errors=729 current=test/test_rake_test_task.rb
+[2026-05-08T04:50:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=18 resolved=209 errors=966 current=test/helper.rb
+[2026-05-08T04:51:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=21 resolved=262 errors=1275 current=lib/rake/file_list.rb
+[2026-05-08T04:51:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.0 files_done=23 resolved=405 errors=1578 current=test/test_rake_application_options.rb
+[2026-05-08T04:52:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.0 files_done=25 resolved=453 errors=1968 current=test/test_rake_linked_list.rb
+[2026-05-08T04:53:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.5 files_done=34 resolved=533 errors=2193 current=lib/rake/task_manager.rb
+[2026-05-08T04:53:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=40 resolved=591 errors=2415 current=lib/rake/ext/string.rb
+[2026-05-08T04:54:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.6 files_done=59 resolved=772 errors=2622 current=test/test_rake_require.rb
+[2026-05-08T04:54:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.1 files_done=77 resolved=861 errors=2830 current=lib/rake/cloneable.rb
+[2026-05-08T04:55:03Z] [iter=1] Target type resolved target_type=call_site resolved=897 errors=2866 secs=425 mem_mb=554 MB
+[2026-05-08T04:55:08Z] [iter=1] Step 5: Writing final enrichment file triples=36985
+[2026-05-08T04:55:09Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/503b8ec593c51289c09cc2a69a34af99d6198c6a.nq.gz size_kb=645
+[2026-05-08T04:55:09Z] [iter=1] PHASE END: enrich elapsed_s=439 elapsed_min=7.3 total_triples=36985
