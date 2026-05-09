@@ -657,8 +657,9 @@
     {
       "@id": "https://repolex.ai/r/ruby/rake/commit/0fdacef47aa9a4140e472b0ce302a2dd09423a75",
       "git:hexsha": "0fdacef47aa9a4140e472b0ce302a2dd09423a75",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v13.3.0"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v13.3.0",
+      "repolex:parsedAt": "2026-05-09T00:11:11.649871+00:00"
     },
     {
       "@id": "https://repolex.ai/r/ruby/rake/commit/503b8ec593c51289c09cc2a69a34af99d6198c6a",
